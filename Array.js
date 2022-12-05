@@ -1,4 +1,4 @@
-function Array(text) {
+function array(text) {
     var e = text;
     if (isFinite(e) !== false) {
         e = e.toString()
