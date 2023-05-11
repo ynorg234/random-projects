@@ -6,7 +6,7 @@ def encr():
 	key = dict()
 	for i in range(len(key)):
 		key[i] = ''.join(sfind(stri) for j in range(3))
-	for k in range(len(text)*26):
+	for k in range(len(text)):
 		if text[k] == stri[k]:
 			etext += key[k]
 	return etext
