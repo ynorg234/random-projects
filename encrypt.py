@@ -10,4 +10,5 @@ def encr():
 		if text[k] == stri[k]:
 			etext += key[k]
 	return etext
+encr()
 	
