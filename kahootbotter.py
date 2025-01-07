@@ -1,4 +1,4 @@
-# Kahoot Botter V0.2
+# Kahoot Botter V0.2 ( what was i thinking back then i was prolly slow )
 from selenium_driver_updater import DriverUpdater
 from selenium.webdriver.common.by import By
 from selenium import webdriver
