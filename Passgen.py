@@ -1,9 +1,7 @@
-# Requires string, secrets, and pyperclip
-import secrets
-import string as txt
-chrs = txt.ascii_letters + str(1234567890)
-def genPass():
-    charCount = input("Amount of characters in password... ");
-    passW = ''.join(secrets.choice(chrs) for _ in range(int(charCount)))
-    print(f'Your password is: {passW}')
-genPass()
+# Requires nothing literally
+import random
+def getPass(length):
+    chrs = "qwertyuiopasdfghjklzxcvbnm,<.>/?;:'[}]{=+-_)(*&^%$@!~1234567890"
+    return ''.join(random.choice(chrs) for _ in range(length))
+length = input("Enter length of password here...")
+print(getPass(int(length)))
