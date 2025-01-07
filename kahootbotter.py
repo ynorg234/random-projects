@@ -28,4 +28,4 @@ while True:
     if i == int(bots):
         driver.execute_script("window.open('about:blank')")
         break
-    
+# no driver.quit() sad... but this was meant to last
